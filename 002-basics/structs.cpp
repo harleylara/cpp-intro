@@ -4,9 +4,7 @@ int main(int argc, char* argv[])
 {
 
     struct linear_vel_t {
-        double x;
-        double y;
-        double z;
+        double x, y, z;
     };
 
     linear_vel_t robot_vel;
