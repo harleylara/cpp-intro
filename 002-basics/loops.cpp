@@ -28,7 +28,7 @@ int main(int argc, char* argvp[])
 
     // for-each like loop, was introduced in C++ 11
     std::cout << "\nfor loop example 2" << std::endl;
-    for (auto number : numbers) {
+    for (const auto number : numbers) {
         std::cout << number << std::endl;
     }
 
