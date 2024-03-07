@@ -2,7 +2,7 @@
 
 int main(int argc, char* argv[])
 {
-    // 1. Direct-initialization
+    // 1. Default-initialization
     // stack memory allocation
     int foo;
     // garbage value
