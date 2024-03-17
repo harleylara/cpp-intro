@@ -82,7 +82,22 @@ int main(int argc, char* argv[])
     // max number of element
     std::cout << "the MAX size of the array: " << arr.max_size() << std::endl;
     // remember array are fixed-size container, so max_size() is equal to size()
-    
+
+    /*
+     * Operations
+    */
+    // fill the array w
+    std::array<int, 4> arr_empty;
+    for (auto element: arr_empty) {
+        // this print garbage values
+        std::cout << element << " ";
+    }
+    std::cout << std::endl;
+    arr_empty.fill(0);
+    for (auto element: arr_empty) {
+        std::cout << element << " ";
+    }
+
     /*
      * Non-member functions
     */
