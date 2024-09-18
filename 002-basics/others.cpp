@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdint>
 
 // Enum to represent different types of actuators
 enum ActuatorType {
@@ -16,7 +17,7 @@ enum SensorType {
 // Union to hold different actuator data
 union ActuatorData {
     float speed;      // for MOTOR
-    double angle;    // for SERVO
+    float angle;    // for SERVO
     int steps;      // for STEPPER
 };
 
@@ -56,7 +57,7 @@ int main(int argc, char* argv[])
     // this is just a normal integer
     my_int level = 70;
 
-    using battery = unsigned short;
+    using battery = uint8_t;
     battery var = 23;
     // Note that neither typedef nor using create new distinct data types. They only create synonyms of existing types.
 
