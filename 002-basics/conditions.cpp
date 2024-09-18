@@ -33,12 +33,16 @@ int main(int argc, char* argv[])
     switch (x) {
         case 1:
             std::cout << "x is 1" << std::endl;
+            break;
         case 2:
             std::cout << "x is 2" << std::endl;
+            break;
         case 3:
             std::cout << "x is 3" << std::endl;
+            break;
         default:
             std::cout << "x is " << x << std::endl;
+            break;
     }
 
     return 0;
