@@ -21,6 +21,13 @@ int main(int argc, char* argvp[])
         couter++;
     }
 
+    std::cout << "\ndo-while loop example" << std::endl;
+    couter = 0; // just to reset the counter
+    do {
+        std::cout << numbers[couter] << std::endl;
+        couter++;
+    } while (couter < std::size(numbers));
+
     std::cout << "\nfor loop example 1" << std::endl;
     for (int i=0; i < std::size(numbers); i++) {
         std::cout << numbers[i] << std::endl;
