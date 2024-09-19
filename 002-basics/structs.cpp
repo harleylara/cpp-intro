@@ -70,7 +70,8 @@ int main(int argc, char* argv[])
     struct twist_t {
         vec3_t linear, angular;
 
-        twist_t() : linear(0.0, 0.0, 0.0), angular(0.0, 0.0, 0.0) {}
+        // twist_t() : linear(0.0, 0.0, 0.0), angular(0.0, 0.0, 0.0) {}
+        twist_t() : linear{}, angular{} {} // better initialization strategy
 
         twist_t(vec3_t linear, vec3_t angular) : linear(linear), angular(angular) {}
 
