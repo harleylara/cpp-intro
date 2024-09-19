@@ -68,7 +68,7 @@ int main ()
 
 ## Other Types
 
-```
+```cpp
 // What is the difference between my_int and var?
 typedef int my_int = 8;
 int var = 9;
