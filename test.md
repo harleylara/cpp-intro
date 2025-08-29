@@ -74,6 +74,14 @@ typedef int my_int = 8;
 int var = 9;
 ```
 
+## Pointers
+
+```cpp
+int* a, b, c, d; // of what type are these objects?
+```
+
+*note: this is inline with CG ES.10*
+
 ## [Advanced] Function Overload
 
 ```cpp
